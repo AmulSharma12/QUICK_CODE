@@ -40,7 +40,7 @@ public class P8_InRangePrimeFactors
 		{
 			//number given should be prime
 			number = sc.nextInt();
-			System.out.print(sieve[number]);
+			System.out.print(sieve[number] + " ");
 			t--;
 		}
 	} 

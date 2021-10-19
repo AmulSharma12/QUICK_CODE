@@ -1,4 +1,4 @@
-import java.lang.*;
+ import java.lang.*;
 import java.util.Scanner;
 
 public class P2_Fibbonaci
@@ -10,6 +10,7 @@ public class P2_Fibbonaci
 
 		int ans  = fib(number);
 		System.out.print(ans);
+		
 	}
 
 	static int fib(int n)

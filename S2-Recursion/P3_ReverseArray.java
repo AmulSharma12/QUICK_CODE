@@ -1,4 +1,4 @@
-import java.lang.*;
+ import java.lang.*;
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -16,18 +16,18 @@ public class P3_ReverseArray
 	{
 		int n = a.length;
 		if(start>=n/2)
-			return;
+			return a;
 
-		swap(a[start],a[n-start-1]);
+		swap(a,start,n-start-1);
 		int[] result = reverse(a,start+1);
 		return result;
 
 	}
 
-	static void swap(int i, int j)
+	static void swap(int[] k,int i, int j)
 	{
-		int temp = i;
-		i = j;
-		j = temp;
+		int temp = k[i];
+		k[i] = k[j];
+		k[j] = temp;
 	}
 }

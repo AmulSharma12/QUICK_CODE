@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 // creating a class of a node
 class Node
@@ -30,7 +31,6 @@ public class P4_PostOrderTraversal
 		root.left.right = new Node(5);
 		root.right.left = new Node(6);
 		root.right.right = new Node(7);
-
 
 
 		postOrder(root);

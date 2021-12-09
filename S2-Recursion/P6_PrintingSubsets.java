@@ -11,7 +11,7 @@ public class P6_PrintingSubsets
 {
 	public static void main(String[] args)
 	{
-		int[] a = {1,3,2};
+		int[] a = {0};
 		ArrayList<Integer> ods = new ArrayList<>(a.length);
 		subSequences(a,0,ods);	 
 		System.out.println("Finished");

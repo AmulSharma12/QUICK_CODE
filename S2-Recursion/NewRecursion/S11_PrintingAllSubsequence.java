@@ -1,4 +1,7 @@
 // printing all the subsequences 
+// Time Complexity O(2^n)
+// Space Complexity o(n)
+
 import java.util.Scanner;
 import java.util.ArrayList;
 

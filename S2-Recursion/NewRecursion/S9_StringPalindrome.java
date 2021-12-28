@@ -6,7 +6,7 @@ public class S9_StringPalindrome
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		String s = sc.nextLine();
+		String s = sc.nextLine() ;
 
 		boolean isPalindrome = checkPalindrome(s,0,s.length());
 		System.out.println(s + " " + isPalindrome);
